@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdesign</title>
+
+    <!--===== CSS =====-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--===== FONT-AWESOME =====-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' integrity='sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==' crossorigin='anonymous'/>
+
+    <!--===== AOS =====-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body id="body">
+
+    <!---===== OVERLAY =====-->
+    <div id="overlay"></div>
+
+    <!--===== HEADER =====-->
+    <header>
+        <nav class="nav bd-container">
+            <div class="nav__menu" id="navMenu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">how it works</a></li>
+                    <li class="nav__item"><a href="#prices" class="nav__link">prices</a></li>
+                    <li class="nav__item"><a href="#help" class="nav__link">help</a></li>
+                </ul>
+            </div>
+            
+            <a href="#" class="nav__logo">DOM.</a>
+    
+            <div class="nav__menu-horizontal">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#app" class="nav__btn"><i class="fa-brands fa-apple"></i> App store</a></li>
+                    <li class="nav__item"><a href="#google" class="nav__btn"><i class="fa-brands fa-apple"></i> Google play</a></li>
+                </ul>
+            </div>
+    
+            <div class="nav__toggle" id="navToggle">
+                <i class="fas fa-stream"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--===== LAMP =====-->
+    <div class="lamp" data-aos="fade-down">
+        <img src="assets/imgs/lamp.png" alt="lamp" class="lamp__img">
+        <span class="lamp__ligh"></span>
+    </div>
+
+    <main>
+        <!--===== HERO =====-->
+        <section class="hero">
+
+            <!-- Bg text -->
+            <div class="hero__bg">
+                <span>Easy</span>
+                <span>Smart</span>
+            </div>
+
+            <!-- Container -->
+            <div class="hero__container bd-container bd-grid">
+
+                <div class="hero__data" data-aos="fade-right">
+
+                    <h2 class="hero__title animate__animated animate__fadeInLeft">Enjoy the new <br>smart Ecosystem</h2>    
+
+                    <label class="hero__switch" for="btnTheme">
+                        <input type="checkbox" id="btnTheme">
+                        <span class="hero__switch-dot"></span>
+                        <span class="hero__switch-bg"></span>
+                    </label>
+
+                    <div class="hero__description bd-grid">
+                        <p>Control appliances, thermostats, lights, and other devices remotely using a smarthphone or tablet through and Internet connection.</p>
+                        <p>Smart home technology provides homeowners with convenience and cost savings.</p>
+                    </div>
+
+                </div>
+
+                <div class="hero__illustration" data-aos="fade-left">
+                    <img class="hero__img" src="assets/imgs/cellphone.png" alt="cell">
+                    <span class="hero__shadown"></span>
+                </div>
+
+            </div>
+
+        </section>
+    
+        <!--===== DISCOVER =====-->
+        <section class="discover section bd-container">
+            <div class="discover__container bd-grid">
+                <p class="discover__subtitle section-subtitle" data-aos="fade-right">Discover new horizonts of comforts</p>
+    
+                <div class="discover__data" data-aos="fade-left">
+                    <h2 class="discover__title section-title">A smart home app will monitor and control home attributes such as lighting, climate, entertainment systems, and appliances</h2>
+                    <a class="discover__btn" href="#"><span>Get more information about app</span><i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+    
+        <!--===== MEDIA =====-->
+        <section class="media section bd-container">
+            <div class="media__container bd-grid">
+                <div class="media__content" data-aos="fade-right">
+                    <img class="media__img" src="assets/imgs/media1.png" alt="media 1">
+                    <a href="#" class="media__btn"><i class="fas fa-play"></i></a>
+                </div>
+                <div class="media__content" data-aos="fade-left" data-aos-delay="300">
+                    <img class="media__img" src="assets/imgs/media2.jfif" alt="media 2">
+                </div>
+            </div>
+        </section>
+    
+        <!--===== CONTROLS =====-->
+        <section class="controls section">
+            <div class="controls__container bd-container">
+                <div class="controls__data" data-aos="fade-left">
+                    <h2 class="section-title">All controls, <br>one app</h2>
+                    <p class="section-description">Just take your smartphone and control your home ecosystem wherever you are</p>
+                    <a href="#" class="controls__btn">Learn how it works</a>
+                </div>
+            </div>
+        </section>
+        
+        <!--===== COMBINE =====-->
+        <section class="combine section">
+            <div class="combine__header bd-container">
+                <h2 class="combine__title section-title" data-aos="fade-down">Combine a perfect <br>ecosystem four your home</h2>
+                <a class="combine__btn" href="#" data-aos="fade-left"><i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="combine__container" data-aos="fade-right">
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img1.png" >
+                    <p class="combine__caption">Smart Spotlight Phillips</p>
+                </div>
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img2.png" >
+                    <p class="combine__caption">Smart Speaker Sonos</p>
+                </div>
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img3.png" >
+                    <p class="combine__caption">Robot Cleaner Xiaomi</p>
+                </div>
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img1.png" >
+                    <p class="combine__caption">Smart Spotlight Phillips</p>
+                </div>
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img2.png" >
+                    <p class="combine__caption">Smart Speaker Sonos</p>
+                </div>
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img3.png" >
+                    <p class="combine__caption">Robot Cleaner Xiaomi</p>
+                </div>
+                <div class="combine__content">
+                    <img class="combine__img" src="assets/imgs/img1.png" >
+                    <p class="combine__caption">Smart Spotlight Phillips</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== MAKE =====-->
+        <section class="make section bd-container">
+            <div class="make__container bd-grid">
+                <div class="make__data" data-aos="fade-right">
+                    <h2 class="section-title">Make your <br>living space <br>better now</h2>
+                    <p class="make__description section-description">dowload the application in the App store or Google store and create comfort in your home with <span class="make__text-blue"> DOM.</span></p>
+                    <p class="make__subtitle section-subtitle">Dowload app</p>
+                    
+                    <div class="make__menu-horizontal">
+                        <ul class="make__list">
+                            <li class="make__item"><a href="#" class="make__btn"><i class="fa-brands fa-apple"></i> App store</a></li>
+                            <li class="make__item"><a href="#" class="make__btn"><i class="fa-brands fa-apple"></i> Google play</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="make__illustration" data-aos="fade-left">
+                    <img class="make__img" src="https://elements-cover-images-0.imgix.net/3e93cf01-76f9-4735-9e9a-8f96604ddd8c?auto=compress%2Cformat&fit=max&w=900&s=dde4df39bfad4ab29463f00a3ddacec9" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!--===== AOS =====-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
