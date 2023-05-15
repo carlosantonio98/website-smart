@@ -1,4 +1,4 @@
-# Diseño de sitio web de peliculas
+# Diseño de sitio web
 Diseño de sitio web smart, sitio con responsividad, interacción y modo nocturno
 
 **Tecnologías utilizadas:**
